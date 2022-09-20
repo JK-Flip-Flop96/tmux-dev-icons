@@ -14,8 +14,8 @@ format_other = placeholder in status_format
 
 if format_current:
     # Add the icon to the current window
-    os.system('tmux set-window-option -g window-status-current-format ' + status_current_format.replace(placeholder, call))
+    os.system('tmux set-window-option -g window-status-current-format ' + status_current_format.replace(placeholder, "Toast"))
 
 if format_other:
     # Add the icon to the other windows
-    os.system('tmux set-window-option -g window-status-format ' + status_format.replace(placeholder, call))
+    os.system('tmux set-window-option -g window-status-format ' + status_format.replace(placeholder, "Toast"))
