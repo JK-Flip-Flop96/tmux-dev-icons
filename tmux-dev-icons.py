@@ -5,7 +5,7 @@ icons = {
     "vim " : "", 
     "python" : "", 
     "python3" : "",
-    "pwsh" : "",
+    "pwsh" : "",
     "zsh " : "",
 }
 
