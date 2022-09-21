@@ -2,20 +2,19 @@
 
 import os
 
+cwd = os.path.dirname(os.path.realpath(__file__))
+
 placeholder = "#{pane_icon}"
-call = "#(python3 tmux-dev-icons.py #W)"
+call = f"#(python3 {cwd}/tmux-dev-icons.py #W)"
 
 # Get the format strings for selected and unselected windows
 status_current_format = os.popen('tmux show-option -gqv window-status-current-format').read()
 status_format = os.popen('tmux show-option -gqv window-status-format').read()
 
-format_current = placeholder in status_current_format
-format_other = placeholder in status_format
-
-if format_current:
+if placeholder in status_current_format:
     # Add the icon to the current window
-    os.system('tmux set-window-option -g window-status-current-format ' + status_current_format.replace(placeholder, "Toast"))
+    os.system(f'tmux set-window-option -g window-status-current-format "{status_current_format.replace(placeholder, call)}"')
 
-if format_other:
+if placeholder in status_format:
     # Add the icon to the other windows
-    os.system('tmux set-window-option -g window-status-format ' + status_format.replace(placeholder, "Toast"))
+    os.system(f'tmux set-window-option -g window-status-format "{status_format.replace(placeholder, call)}"')
