@@ -1,6 +1,8 @@
 import sys
 
 icons = {
+    "tmux" : "",
+    "[tmux]" : "",
     "nvim" : "", 
     "vim " : "", 
     "python" : "", 
@@ -13,6 +15,8 @@ icons = {
 }
 
 colours = {
+    "tmux" : "#21a819",
+    "[tmux]" : "#21a819",
     "nvim" : "#93e75a",
     "vim" : "#078a2a",
     "python" : "#4b8bbe",
