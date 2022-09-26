@@ -4,7 +4,7 @@ icons = {
     "tmux" : "",
     "[tmux]" : "",
     "nvim" : "", 
-    "vim " : "", 
+    "vim" : "", 
     "python" : "", 
     "python3" : "",
     "pwsh" : "",
