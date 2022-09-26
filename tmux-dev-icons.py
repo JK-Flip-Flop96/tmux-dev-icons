@@ -12,7 +12,7 @@ icons = {
     "bash" : "",
     "git" : "",
     "fzf" : "",
-    "bat" : "龎"
+    "bat" : "",
 }
 
 colours = {
