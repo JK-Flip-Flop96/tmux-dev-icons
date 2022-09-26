@@ -12,6 +12,7 @@ icons = {
     "bash" : "",
     "git" : "",
     "fzf" : "",
+    "bat" : "龎"
 }
 
 colours = {
@@ -25,7 +26,8 @@ colours = {
     "zsh" : "#eb5620",
     "bash" : "#4ba244",
     "git" : "#e14528",
-    "fzf" : "#ee0058"
+    "fzf" : "#ee0058",
+    "bat" : "#323284",
 }
 
 pane_title = sys.argv[1]
