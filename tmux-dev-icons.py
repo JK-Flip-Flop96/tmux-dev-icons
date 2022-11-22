@@ -11,7 +11,7 @@ icons = {
     "zsh " : "",
     "bash" : "",
     "git" : "",
-    "lazygit" : "",
+    "lazygit" : "",
     "fzf" : "",
     "bat" : "",
 }
