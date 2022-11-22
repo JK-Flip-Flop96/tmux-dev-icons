@@ -11,6 +11,7 @@ icons = {
     "zsh " : "",
     "bash" : "",
     "git" : "",
+    "lazygit" : "",
     "fzf" : "",
     "bat" : "",
 }
@@ -26,6 +27,7 @@ colours = {
     "zsh" : "#eb5620",
     "bash" : "#4ba244",
     "git" : "#e14528",
+    "git" : "#34aa4b",
     "fzf" : "#ee0058",
     "bat" : "#323284",
 }
