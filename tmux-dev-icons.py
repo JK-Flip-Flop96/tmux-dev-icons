@@ -14,6 +14,8 @@ icons = {
     "lazygit" : "",
     "fzf" : "",
     "bat" : "",
+    "pacman" : "",
+    "yay" : "",
 }
 
 colours = {
@@ -30,6 +32,8 @@ colours = {
     "lazygit" : "#34aa4b",
     "fzf" : "#ee0058",
     "bat" : "#323284",
+    "pacman" : "#1793d1",
+    "yay" : "#1793d1",
 }
 
 pane_title = sys.argv[1]
